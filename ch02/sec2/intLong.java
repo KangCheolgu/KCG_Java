@@ -13,7 +13,7 @@ public class intLong {
 		
 		
 		System.out.println(A);
-		System.out.println(A+B);
+		System.out.println('a'+B);
 		System.out.println("asdf"+A+B); //A는 65번 이라 75가 나옴 '\n'은 10?
 										// char는 두개가 넘어가는 순간 그냥 숫자가 되어버림
 		System.out.print(var2);

@@ -17,7 +17,7 @@ public class MultiSelect {
 			
 			int score = Integer.parseInt(stScore);			
 			char grade;
-				
+		
 			if( score >= 90 )
 				grade = 'A';
 			else if (score >= 80)

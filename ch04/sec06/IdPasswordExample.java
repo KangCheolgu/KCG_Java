@@ -19,10 +19,10 @@ public class IdPasswordExample {
 			System.out.print("id를 입력하세요 : ");
 			id = scanner.nextLine();
 			
-			
 			if(! id.equals("ezen")) {
 				System.out.println("아이디가 바르지 않습니다."); break;
 			}
+			
 			System.out.print("비밀번호를 입력하세요 : ");
 			
 			while (true) {
@@ -35,7 +35,7 @@ public class IdPasswordExample {
 					
 				} else if (count <2) {
 					
-					System.out.println("비밀번호가 틀렸습니다. 다시 입력하여 주십시오");
+					System.out.print("비밀번호가 틀렸습니다. 다시 입력하여 주십시오 : ");
 					count++;
 					
 				}

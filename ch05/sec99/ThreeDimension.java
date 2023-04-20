@@ -2,7 +2,7 @@ package ch05.sec99;
 
 public class ThreeDimension {
 	
-	
+	//삼차원 배열 만들기
 	public static void main(String[] args) {
 		int[][][] Ba = new int [3][2][3];
 		

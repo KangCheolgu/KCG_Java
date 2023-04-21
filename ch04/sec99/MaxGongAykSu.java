@@ -2,7 +2,6 @@ package ch04.sec99;
 
 import java.util.Scanner;
 
-import study00.h20230418.Scannr;
 
 public class MaxGongAykSu {
 	

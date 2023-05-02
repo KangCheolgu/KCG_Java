@@ -10,7 +10,7 @@ public class GenericExample {
 		Tv tv = product1.getKind();
 		String tvModel = product1.getModel();
 		
-		System.out.println(model);
+		System.out.println(tvModel);
 
 		Product <Car , String> product2 = new Product<>();
 		

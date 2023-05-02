@@ -17,7 +17,7 @@ public class Account {
 	
 	public void withdraw (int money) throws InsufficientException {
 		if(balance < money) {
-			throw new InsufficientException();
+			throw new InsufficientException("잔고 부족 : " + (money-balance)+" 모자랍");
 		}
 		balance -= money;
 		System.out.println("남은 잔액은 " + balance +" 원 입니다.");
